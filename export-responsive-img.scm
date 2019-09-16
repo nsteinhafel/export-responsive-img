@@ -2,7 +2,7 @@
     (let*
         (
             ; file name for @1x
-            (fileForOneX (string-append exportDirectory "/" exportFileNameBase "@1x.jpg"))
+            (fileForOneX (string-append exportDirectory "/" exportFileNameBase ".jpg"))
             ; file name and dimensions for @2x
             (fileForTwoX (string-append exportDirectory "/" exportFileNameBase "@2x.jpg"))
             (widthAtTwoX (* widthAtOneX 2))
